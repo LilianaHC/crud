@@ -14,7 +14,7 @@ if (isset($_POST['numeroProducto']) && !empty($_POST['numeroProducto'])) {
             echo "Error: " . $sql . "<br>" . mysqli_error($con);
         }
     } else {
-        echo "Error: número de producto inválido.";
+        echo "Error: Error ese producto no existe";
     }
 } else {
     echo "Error: número de producto no especificado.";
